@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+h1,h2,h3{
+  font-family: 'Roboto',sans-serif;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #35D073;
+}
+table{
+    margin:0 auto;
+}
+th{
+background-color:#231F20;
+color:#35D073;
+padding: 20px;
+}
+td{
+    border:3px solid black;
+    background-color:#231F20;
+    color:#35D073;
+    }
+button{
+    border:0;
+    padding:0;
+    background-color:#231F20;
+    font-family: 'Lato',sans-serif;
+    color:#35D073;
+    width:100%;
+}
+ul{
+font-family: 'Lato',sans-serif;
+}
+
+#comprar{
+    border:4px solid black;
+    background-color: #231F20;
+    width: auto;
+}
+
+/*desktop*/
+@media only screen and (min-width:769px){
+
+    h1,h2,h3,ul{
+        margin-left: 41vw;
+    }
+    h3{
+        font-size: 2vw;
+    }
+    th{
+        font-size: 200%;
+    }
+    td{
+        font-size: 125%;
+    }
+    button{
+        font-size: 100%;
+    }
+    #comprar{
+       margin-left: 42%;
+       height:3vw;
+       width:6vw;
+    }
+    ul{
+      font-size: 130%;
+    }
+}
+
+/*mobile*/
+@media only screen and (min-width:320px) and (max-width:720px){
+    
+ h1,h2,h3,ul{
+     margin-left:15vw;
+ }
+ h3{
+    font-size: 6vw;
+}
+th{
+    font-size: 150%;
+}
+td{
+    font-size: 125%;
+}
+button{
+    font-size: 100%;
+}
+#comprar{
+   margin-left: 19%;
+   height:12vw;
+   width:24vw;
+}
+ul{
+  font-size: 130%;
+}
+}
+
+
